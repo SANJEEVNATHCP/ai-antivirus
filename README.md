@@ -59,7 +59,28 @@ An intelligent security proxy that sits between your applications and Large Lang
    - Health Check: http://localhost:8000/health
    - API Docs: http://localhost:8000/docs
 
-## 🎯 Usage
+## � Deployment
+
+**⚠️ Important:** This is a Python FastAPI application. **Cloudflare Pages/Workers is NOT supported** as it's designed for static sites and JavaScript.
+
+**Supported Platforms:**
+- ✅ **Railway** (Recommended - easiest deployment)
+- ✅ **Render** (Free tier available)
+- ✅ **Docker** (Google Cloud Run, AWS ECS, Azure, Fly.io)
+- ✅ **Heroku**
+- ✅ **Vercel** (Limited - serverless only)
+
+**📖 Full deployment guide:** [DEPLOYMENT.md](DEPLOYMENT.md)
+
+**Quick Deploy to Railway:**
+1. Fork this repository
+2. Go to [railway.app](https://railway.app)
+3. Click "Deploy from GitHub repo"
+4. Select your fork
+5. Add environment variables (OPENAI_API_KEY, etc.)
+6. Deploy! 🚀
+
+## �🎯 Usage
 
 ### As OpenAI Proxy
 
