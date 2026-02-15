@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+httpx
+sqlalchemy
+pydantic
+pydantic-settings
+python-dotenv
+jinja2
+aiofiles
+python-multipart
+ruff
+pytest
+pytest-asyncio

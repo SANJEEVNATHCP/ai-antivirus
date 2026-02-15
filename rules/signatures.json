@@ -1,0 +1,22 @@
+{
+  "injection": [
+    "ignore previous instructions",
+    "system prompt",
+    "reveal system secrets",
+    "you are now",
+    "bypass",
+    "override"
+  ],
+  "jailbreak": [
+    "DAN",
+    "Do Anything Now",
+    "jailbreak",
+    "unfiltered"
+  ],
+  "pii": [
+    "email",
+    "phone",
+    "credit card",
+    "ssn"
+  ]
+}
